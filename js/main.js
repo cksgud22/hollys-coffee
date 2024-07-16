@@ -17,5 +17,9 @@ $(function(){
         fade:true,
     })
 
+    $(".close").click(function(){
+        $(".popup").hide();
+    })
+
 
 })/* jqery */
